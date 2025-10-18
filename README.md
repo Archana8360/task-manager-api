@@ -16,12 +16,6 @@ A comprehensive, feature-rich RESTful API for a task manager application built w
 
 ---
 
-## Project Structure
-
-The project follows a standard and scalable Flask application structure, separating concerns into different modules.
-
-TaskManagerAPI/ ├── app/ │ ├── init.py │ ├── auth.py │ ├── decorators.py │ ├── extensions.py │ ├── models.py │ └── routes.py ├── tests/ │ └── test_app.py ├── .env ├── config.py ├── README.md └── run.py
-
 ### File Descriptions
 
 | File                | Purpose                                                              |
@@ -153,3 +147,4 @@ pytest --cov=app --cov-report=html
 ```
 
 This will generate an htmlcov directory. Open the index.html file inside it to view the full report.
+
