@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+PyJWT
+Werkzeug
+pytest
+python-dotenv
+flasgger
+pytest
+pytest-cov
